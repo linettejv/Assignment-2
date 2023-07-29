@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assg 2 Q 6</title>
+    <link rel="stylesheet" href="style_2_6.css">
+</head>
+<body>
+    
+    <div class="div-1" id= "block1" onmouseover="changecolor1()" onmouseout="resetcolor1()"></div>
+    <div class="div-2"></div>
+   
+
+    <script>
+        //get by class returns as an array , so we should select as an array 
+        function changecolor1(){
+            document.getElementsByClassName("div-1")[0].style.background = "red";
+        }
+        function resetcolor1(){
+            document.getElementById("block1").style.background = "black";
+        }
+    </script>
+    
+</body>
+</html>

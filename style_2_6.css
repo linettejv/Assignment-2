@@ -1,0 +1,27 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+}
+
+.div-1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-right: 45px;
+}
+
+.div-2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    
+}
+
+.div-2:hover{
+    background-color: blue;
+}
+
+
