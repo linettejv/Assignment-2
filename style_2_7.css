@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(172, 214, 214);
+    align-items: center;
+    justify-content: center;
+}
+
+body >*{
+    padding-left: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assg 2 Q 7</title>
+    <link rel="stylesheet" href="style_2_7.css">
+</head>
+<body>
+    
+<input type="password" id="passwordInput" placeholder="Enter password">
+<label for="showPassword">Show Password</label>  
+<input type="checkbox" id="showPassword" onclick="showpass()">
+
+<script>
+    function showpass(){
+  var type_now = document.getElementById("passwordInput");
+  if (type_now.type === "password") {
+    type_now.type = "text";
+  } else {
+    type_now.type = "password";
+  }
+    }
+
+    // setAttribute can also be used to change 
+</script>
+
+
+</body>
+</html>
